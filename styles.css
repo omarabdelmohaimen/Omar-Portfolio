@@ -1,0 +1,113 @@
+body {
+    background-color: #80C4E9;
+}
+
+.website-front {
+    background-color: #FFF6E9;
+    margin: 50px;
+    border: 5px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 10px;
+}
+
+@media (max-width: 767.98px) {
+    .website-front {
+        margin: 0;
+        box-shadow: 0;
+    }
+}
+
+a.nav-link {
+    margin: 10px;
+}
+
+a.nav-link:hover {
+    background-color: #FF7F3E;
+    border: none;
+    border-radius: 5px;
+}
+
+.text {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main-img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        top: 50px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+.card {
+    border: 3px solid black;
+    border-radius: 10px;
+    height: 350px;
+    margin-left: 8%;
+}
+
+.card:hover {
+    background-color: #B67352;
+    box-shadow: 10px 10px black;
+    color: white;
+}
+
+.card-img {
+    height: 100px;
+    width: 100px;
+    margin: 20px 0 0 20px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 20px;
+}
+
+.product-btn {
+    margin-left: 7%;
+    background-color: #604CC3;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 5px 5px black;
+}
+
+.product-btn:hover {
+    background-color: #B67352;
+    box-shadow: 10px 10px black;
+}
+
+.product-img {
+    border-radius: 50px;
+    border: none;
+}
+
+.myimg {
+    border-radius: 50%;
+}
+
+span {
+    color: #C80036;
+}
+
+#footer {
+    background-color: #fff6e7;
+}
